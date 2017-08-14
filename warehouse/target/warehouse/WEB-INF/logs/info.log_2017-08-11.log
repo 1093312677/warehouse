@@ -1,0 +1,412 @@
+2017-08-11 22:13:37  [ RMI TCP Connection(3)-127.0.0.1:3323 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 22:13:37  [ RMI TCP Connection(3)-127.0.0.1:3349 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 22:13:37 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 22:13:37  [ RMI TCP Connection(3)-127.0.0.1:3353 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 22:13:37  [ RMI TCP Connection(3)-127.0.0.1:3482 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4349 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4350 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4352 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4352 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4352 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4352 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4353 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4353 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4353 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4353 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4353 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4360 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4361 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4361 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4361 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4367 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4367 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4367 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4368 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4373 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4373 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4373 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 22:13:38  [ RMI TCP Connection(3)-127.0.0.1:4505 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 1180 ms
+ 2017-08-11 22:13:57  [ http-nio-8080-exec-9:24017 ] - [ INFO ]  user loging:kone
+ 2017-08-11 22:14:01  [ http-nio-8080-exec-4:28228 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:18:33  [ http-nio-8080-exec-1:300265 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:25:21  [ http-nio-8080-exec-8:707344 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:26:31  [ http-nio-8080-exec-2:777828 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:27:23  [ http-nio-8080-exec-8:829586 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:27:58  [ http-nio-8080-exec-7:864987 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 22:28:13  [ http-nio-8080-exec-6:879724 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:01:34  [ http-nio-8080-exec-5:2880920 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:01:59  [ http-nio-8080-exec-9:2906243 ] - [ WARN ]  No mapping found for HTTP request with URI [/warehouse/controller/goods/addProductRecord.do] in DispatcherServlet with name 'SpringMVC'
+ 2017-08-11 23:06:29  [ http-nio-8080-exec-10:3175840 ] - [ WARN ]  No mapping found for HTTP request with URI [/warehouse/controller/goods/addProductRecord.do] in DispatcherServlet with name 'SpringMVC'
+ 2017-08-11 23:06:48  [ http-nio-8080-exec-4:3194418 ] - [ WARN ]  No mapping found for HTTP request with URI [/warehouse/controller/goods/addProductRecord.do] in DispatcherServlet with name 'SpringMVC'
+ 2017-08-11 23:07:09  [ RMI TCP Connection(8)-127.0.0.1:3215465 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 22:13:37 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:07:14  [ RMI TCP Connection(8)-127.0.0.1:1660 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:07:14  [ RMI TCP Connection(8)-127.0.0.1:1670 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:07:14 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:07:14  [ RMI TCP Connection(8)-127.0.0.1:1671 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:07:14  [ RMI TCP Connection(8)-127.0.0.1:1775 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2313 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2314 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2314 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2314 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2317 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2318 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2320 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2323 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:07:15  [ RMI TCP Connection(8)-127.0.0.1:2411 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 751 ms
+ 2017-08-11 23:07:37  [ http-nio-8080-exec-9:24239 ] - [ INFO ]  ----------add product record---------------
+ 2017-08-11 23:22:12  [ http-nio-8080-exec-14:899501 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:23:25  [ http-nio-8080-exec-17:972691 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:23:29  [ http-nio-8080-exec-19:976706 ] - [ WARN ]  No mapping found for HTTP request with URI [/warehouse/controller/goods/viewProductRecord.do] in DispatcherServlet with name 'SpringMVC'
+ 2017-08-11 23:24:48  [ http-nio-8080-exec-14:1055473 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:24:55  [ http-nio-8080-exec-12:1062477 ] - [ WARN ]  No mapping found for HTTP request with URI [/warehouse/controller/goods/viewProductRecord.do] in DispatcherServlet with name 'SpringMVC'
+ 2017-08-11 23:25:05  [ localhost-startStop-1:1071970 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:07:14 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:25:25  [ RMI TCP Connection(2)-127.0.0.1:3253 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:25:25  [ RMI TCP Connection(2)-127.0.0.1:3264 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:25:25 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:25:25  [ RMI TCP Connection(2)-127.0.0.1:3265 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:25:25  [ RMI TCP Connection(2)-127.0.0.1:3626 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4613 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4615 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4615 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4617 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4617 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4617 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4618 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4669 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4669 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4669 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4670 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4671 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4672 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4672 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4678 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4679 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4684 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4685 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:25:26  [ RMI TCP Connection(2)-127.0.0.1:4685 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:25:27  [ RMI TCP Connection(2)-127.0.0.1:4798 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 1545 ms
+ 2017-08-11 23:25:33  [ http-nio-8080-exec-5:11540 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:27:32  [ http-nio-8080-exec-2:129700 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:28:30  [ localhost-startStop-1:188050 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:25:25 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:2488 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:2503 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:28:49 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:2504 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:2622 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3217 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3218 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3218 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3218 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3218 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3218 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3219 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3219 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3219 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3222 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3223 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3223 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3225 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3226 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3233 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3233 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3234 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3234 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3248 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3248 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3249 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3249 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3249 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3249 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3249 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3250 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:28:49  [ RMI TCP Connection(3)-127.0.0.1:3315 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 827 ms
+ 2017-08-11 23:29:02  [ http-nio-8080-exec-7:16276 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:29:06  [ http-nio-8080-exec-9:20297 ] - [ INFO ]  1
+ 2017-08-11 23:29:06  [ http-nio-8080-exec-9:20297 ] - [ INFO ]  null------------material-------
+ 2017-08-11 23:30:54  [ http-nio-8080-exec-1:128080 ] - [ INFO ]  1
+ 2017-08-11 23:30:54  [ http-nio-8080-exec-1:128080 ] - [ INFO ]  null------------material-------
+ 2017-08-11 23:31:02  [ localhost-startStop-1:135700 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:28:49 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:39:14  [ RMI TCP Connection(5)-127.0.0.1:4122 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:39:14  [ RMI TCP Connection(5)-127.0.0.1:4138 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:39:14 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:39:14  [ RMI TCP Connection(5)-127.0.0.1:4138 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:39:15  [ RMI TCP Connection(5)-127.0.0.1:4711 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5428 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5444 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5444 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5444 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5444 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5445 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5447 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5448 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5450 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:39:16  [ RMI TCP Connection(5)-127.0.0.1:5566 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 1444 ms
+ 2017-08-11 23:39:30  [ http-nio-8080-exec-7:19561 ] - [ INFO ]  user loging:kone
+ 2017-08-11 23:39:34  [ http-nio-8080-exec-7:23671 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:39:42  [ http-nio-8080-exec-4:31841 ] - [ INFO ]  1
+ 2017-08-11 23:39:42  [ http-nio-8080-exec-4:31841 ] - [ INFO ]  null------------material-------
+ 2017-08-11 23:42:36  [ http-nio-8080-exec-5:205610 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:42:42  [ http-nio-8080-exec-6:212033 ] - [ INFO ]  1
+ 2017-08-11 23:42:42  [ http-nio-8080-exec-6:212033 ] - [ INFO ]  null------------material-------
+ 2017-08-11 23:43:07  [ http-nio-8080-exec-3:236996 ] - [ INFO ]  1
+ 2017-08-11 23:43:07  [ http-nio-8080-exec-3:236996 ] - [ INFO ]  null------------material-------
+ 2017-08-11 23:43:14  [ localhost-startStop-1:243792 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:39:14 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:43:34  [ RMI TCP Connection(5)-127.0.0.1:2280 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:43:34  [ RMI TCP Connection(5)-127.0.0.1:2308 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:43:34 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:43:34  [ RMI TCP Connection(5)-127.0.0.1:2342 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:43:34  [ RMI TCP Connection(5)-127.0.0.1:2584 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3262 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3277 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:43:35  [ RMI TCP Connection(5)-127.0.0.1:3346 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 1065 ms
+ 2017-08-11 23:43:41  [ http-nio-8080-exec-4:9692 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:43:46  [ http-nio-8080-exec-7:14638 ] - [ INFO ]  1
+ 2017-08-11 23:43:46  [ http-nio-8080-exec-7:14638 ] - [ INFO ]  1.0------------material-------
+ 2017-08-11 23:45:38  [ http-nio-8080-exec-4:126304 ] - [ INFO ]  1
+ 2017-08-11 23:45:38  [ http-nio-8080-exec-4:126305 ] - [ INFO ]  1.0------------material-------
+ 2017-08-11 23:51:11  [ http-nio-8080-exec-2:459966 ] - [ INFO ]  1
+ 2017-08-11 23:51:11  [ http-nio-8080-exec-2:459967 ] - [ INFO ]  1.0------------material-------
+ 2017-08-11 23:51:27  [ http-nio-8080-exec-8:475568 ] - [ INFO ]  1
+ 2017-08-11 23:51:27  [ http-nio-8080-exec-8:475568 ] - [ INFO ]  1.0------------material-------
+ 2017-08-11 23:51:51  [ http-nio-8080-exec-6:499261 ] - [ INFO ]  1
+ 2017-08-11 23:51:51  [ http-nio-8080-exec-6:499261 ] - [ INFO ]  1.0------------material-------
+ 2017-08-11 23:51:55  [ localhost-startStop-1:504121 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:43:34 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:52:15  [ RMI TCP Connection(5)-127.0.0.1:2596 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:52:15  [ RMI TCP Connection(5)-127.0.0.1:2608 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:52:15 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:52:15  [ RMI TCP Connection(5)-127.0.0.1:2609 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:2749 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3358 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3358 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3358 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3358 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3358 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3359 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3359 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3359 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3359 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3361 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3364 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3365 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3369 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3370 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3370 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3374 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3374 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:52:16  [ RMI TCP Connection(5)-127.0.0.1:3482 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 886 ms
+ 2017-08-11 23:52:28  [ http-nio-8080-exec-5:15467 ] - [ INFO ]  1
+ 2017-08-11 23:52:28  [ http-nio-8080-exec-5:15468 ] - [ INFO ]  2.0------------material-------水泥
+ 2017-08-11 23:56:28  [ http-nio-8080-exec-9:255612 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:56:32  [ http-nio-8080-exec-1:259233 ] - [ INFO ]  1
+ 2017-08-11 23:56:32  [ http-nio-8080-exec-1:259233 ] - [ INFO ]  2.0------------material-------水泥
+ 2017-08-11 23:56:35  [ http-nio-8080-exec-2:261767 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:56:38  [ http-nio-8080-exec-4:265080 ] - [ INFO ]  1
+ 2017-08-11 23:56:38  [ http-nio-8080-exec-4:265080 ] - [ INFO ]  2.0------------material-------水泥
+ 2017-08-11 23:56:44  [ localhost-startStop-1:270967 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:52:15 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:57:03  [ RMI TCP Connection(5)-127.0.0.1:3536 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization started
+ 2017-08-11 23:57:03  [ RMI TCP Connection(5)-127.0.0.1:3576 ] - [ INFO ]  Refreshing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Fri Aug 11 23:57:03 CST 2017]; parent: Root WebApplicationContext
+ 2017-08-11 23:57:03  [ RMI TCP Connection(5)-127.0.0.1:3577 ] - [ INFO ]  Loading XML bean definitions from class path resource [spring-mvc.xml]
+ 2017-08-11 23:57:04  [ RMI TCP Connection(5)-127.0.0.1:3712 ] - [ INFO ]  JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4924 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4924 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser.*] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4924 ] - [ INFO ]  Mapped URL path [/controller/account/removeUser/] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4924 ] - [ INFO ]  Mapped URL path [/controller/account/login] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4924 ] - [ INFO ]  Mapped URL path [/controller/account/login.*] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4925 ] - [ INFO ]  Mapped URL path [/controller/account/login/] onto handler 'accountController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4925 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProject/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/addProduct/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4926 ] - [ INFO ]  Mapped URL path [/controller/goods/selectMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4927 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4927 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4927 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4931 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4931 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4931 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterial/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4931 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4931 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4932 ] - [ INFO ]  Mapped URL path [/controller/goods/addProject/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4932 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4932 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4932 ] - [ INFO ]  Mapped URL path [/controller/goods/addProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4932 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4940 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4940 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProduct/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4940 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4940 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/addMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/viewMaterialRecord/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4941 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord.*] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:4942 ] - [ INFO ]  Mapped URL path [/controller/goods/viewProductRecord/] onto handler 'goodsController'
+ 2017-08-11 23:57:05  [ RMI TCP Connection(5)-127.0.0.1:5033 ] - [ INFO ]  FrameworkServlet 'SpringMVC': initialization completed in 1496 ms
+ 2017-08-11 23:57:29  [ http-nio-8080-exec-8:29278 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:57:34  [ http-nio-8080-exec-10:33767 ] - [ INFO ]  1
+ 2017-08-11 23:57:34  [ http-nio-8080-exec-10:33767 ] - [ INFO ]  2.0------------material-------水泥
+ 2017-08-11 23:58:27  [ http-nio-8080-exec-2:87711 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:58:31  [ http-nio-8080-exec-4:91135 ] - [ INFO ]  1
+ 2017-08-11 23:58:31  [ http-nio-8080-exec-4:91135 ] - [ INFO ]  2.0------------material-------水泥
+ 2017-08-11 23:58:48  [ http-nio-8080-exec-5:107885 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-11 23:59:34  [ http-nio-8080-exec-9:153757 ] - [ INFO ]  ----------add product record---------------
+ 

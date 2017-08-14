@@ -1,0 +1,8 @@
+2017-08-10 00:01:33  [ http-nio-8080-exec-6:4033639 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:06:13  [ http-nio-8080-exec-2:4314240 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:07:27  [ http-nio-8080-exec-10:4387503 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:07:39  [ http-nio-8080-exec-6:4399372 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:07:58  [ http-nio-8080-exec-8:4419320 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:10:14  [ http-nio-8080-exec-3:4554921 ] - [ INFO ]  kone---------Sun Aug 06 18:55:04 CST 2017
+ 2017-08-10 00:15:59  [ localhost-startStop-1:4900300 ] - [ INFO ]  Closing WebApplicationContext for namespace 'SpringMVC-servlet': startup date [Wed Aug 09 22:54:21 CST 2017]; parent: Root WebApplicationContext
+ 

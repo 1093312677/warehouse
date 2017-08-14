@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.warehouse.dao.IProductRecordDao" >
+  <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+  <resultMap type="com.warehouse.entity.ProductRecord" id="BaseResultMap">
+      <!-- 用id属性来映射主键字段 -->
+      <id property="id" column="id"/>
+      <!-- 用result属性来映射非主键字段 -->
+      <result property="productId" column="product_id"/>
+      <result property="remark" column="remark"/>
+      <result property="inNum" column="in_num"/>
+      <result property="time" column="time"/>
+      <result property="yn" column="yn"/>
+      <collection property="productRecordMaterialList" ofType="com.warehouse.entity.ProductRecordMaterial">
+          <id property="id" column="id"/>
+          <result property="materialId" column="material_id"/>
+          <result property="number" column="number"/>
+          <collection property="material" ofType="com.warehouse.entity.Material">
+              <id property="id" column="id"/>
+              <result property="materialName" column="material_name"/>
+          </collection>
+      </collection>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, product_id, remark, in_num, time, yn
+  </sql>
+
+    <select id="viewProductRecord" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM tb_product_record
+        WHERE
+        product_id = #{productId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            time
+            BETWEEN
+            #{startTime}
+            AND
+            #{endTime}
+        </if>
+        ORDER BY
+        id DESC
+        LIMIT
+        #{offset}, #{size}
+    </select>
+
+  <insert id="addProductRecord" parameterType="com.warehouse.entity.ProductRecord" useGeneratedKeys="true" keyProperty="id" >
+    insert into tb_product_record
+    (id,product_id, remark, in_num, time, yn)
+    values
+     (#{productRecord.id,jdbcType=BIGINT},#{productRecord.productId, jdbcType=BIGINT}, #{productRecord.remark,jdbcType=VARCHAR}, #{productRecord.inNum, jdbcType=FLOAT}, now(), 0)
+      <selectKey resultType="Long" order="AFTER" keyProperty="productRecord.id">
+          SELECT LAST_INSERT_ID() AS id
+      </selectKey>
+  </insert>
+
+    <select id="viewProductRecordCount" resultType="java.lang.Integer">
+        SELECT
+        COUNT(*)
+        FROM tb_product_record
+        WHERE
+        product_id = #{productId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            time
+            BETWEEN
+            #{startTime}
+            AND
+            #{endTime}
+        </if>
+    </select>
+    <select id="getSum" resultType="java.lang.Float">
+        SELECT
+        SUM(in_num)
+        FROM
+        tb_product_record
+        WHERE
+        product_id = #{productId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            time
+            BETWEEN
+            #{startTime}
+            AND
+            #{endTime}
+        </if>
+    </select>
+</mapper>

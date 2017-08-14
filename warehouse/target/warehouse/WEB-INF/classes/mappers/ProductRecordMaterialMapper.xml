@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.warehouse.dao.IProductRecordMaterialDao" >
+  <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+  <resultMap type="com.warehouse.entity.ProductRecordMaterial" id="BaseResultMap">
+    <!-- 用id属性来映射主键字段 -->
+    <id property="id" column="id"/>
+    <!-- 用result属性来映射非主键字段 -->
+    <result property="materialId" column="material_id"/>
+    <result property="productRecordId" column="product_record_id"/>
+    <result property="number" column="number"/>
+    <result property="yn" column="yn"/>
+  </resultMap>
+  <sql id="Base_Column_List" >
+    id, material_id, product_record_id, number, yn
+  </sql>
+  <insert id="addProductRecordMaterial" parameterType="com.warehouse.entity.ProductRecordMaterial" >
+    insert into tb_product_record_material
+    (id,material_id, product_record_id, number, yn)
+    values
+     (#{id,jdbcType=BIGINT},#{materialId, jdbcType=BIGINT}, #{productRecordId, jdbcType=BIGINT}, #{number, jdbcType=FLOAT}, 0)
+  </insert>
+
+  <select id="viewProductRecordMaterialDetials" resultMap="BaseResultMap" parameterType="long" >
+    select
+    <include refid="Base_Column_List" />
+    from tb_product_record_material
+    where product_record_id = #{id,jdbcType=BIGINT}
+  </select>
+</mapper>

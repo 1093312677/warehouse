@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.warehouse.dao.IProjectDao" >
+  <resultMap id="BaseResultMap" type="com.warehouse.entity.Project" >
+    <constructor >
+      <idArg column="id" jdbcType="BIGINT" javaType="long" />
+      <arg column="project_name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="project_content" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="name" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="tel" jdbcType="VARCHAR" javaType="java.lang.String" />
+      <arg column="create_time" jdbcType="TIMESTAMP" javaType="java.lang.String" />
+      <arg column="yn" jdbcType="NUMERIC" javaType="java.lang.Integer" />
+    </constructor>
+  </resultMap>
+
+  <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+  <resultMap type="com.warehouse.entity.Project" id="projectResultMap">
+    <!-- 用id属性来映射主键字段 -->
+    <id property="id" column="id"/>
+    <!-- 用result属性来映射非主键字段 -->
+    <result property="projectName" column="project_name"/>
+    <result property="projectContent" column="project_content"/>
+    <result property="name" column="name"/>
+    <result property="tel" column="tel"/>
+    <result property="createTime" column="create_time"/>
+    <result property="yn" column="yn"/>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, project_name, project_content, name, tel, create_time, yn
+  </sql>
+
+    <select id="viewProject" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM tb_project
+        WHERE
+        yn != -1
+    </select>
+
+  <select id="getProjectOne" resultMap="BaseResultMap" parameterType="long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_project
+    where id = #{projectId,jdbcType=BIGINT}
+  </select>
+  <update id="updateYn" parameterType="long" >
+    UPDATE
+     tb_project
+    SET
+    yn = -1
+    where id = #{projectId,jdbcType=BIGINT}
+  </update>
+
+  <update id="updateProject" parameterType="com.warehouse.entity.Project" >
+    UPDATE
+     tb_project
+    SET
+    project_name = #{projectName, jdbcType=VARCHAR},
+    project_content = #{projectContent, jdbcType=VARCHAR} ,
+    name = #{name, jdbcType=VARCHAR},
+    tel = #{tel, jdbcType=VARCHAR}
+    WHERE
+     id = #{id,jdbcType=BIGINT}
+  </update>
+
+  <insert id="addProject" parameterType="com.warehouse.entity.Project" >
+    insert into tb_project
+    (id, project_name, project_content, name, tel, create_time, yn)
+    values
+     (#{id,jdbcType=BIGINT}, #{projectName,jdbcType=VARCHAR},  #{projectContent,jdbcType=VARCHAR},
+      #{name, jdbcType=VARCHAR}, #{tel, jdbcType=VARCHAR}, now(), 0)
+  </insert>
+
+</mapper>

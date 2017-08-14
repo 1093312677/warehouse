@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.warehouse.dao.IProductDao" >
+  <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+  <resultMap type="com.warehouse.entity.Product" id="BaseResultMap">
+    <!-- 用id属性来映射主键字段 -->
+    <id property="id" column="id"/>
+    <!-- 用result属性来映射非主键字段 -->
+    <result property="projectId" column="project_id"/>
+    <result property="productName" column="product_name"/>
+    <result property="number" column="number"/>
+    <result property="yn" column="yn"/>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, project_id, product_name, number, yn
+  </sql>
+
+    <select id="viewProduct" resultMap="BaseResultMap">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM tb_product
+        WHERE
+        project_id = #{projectId,jdbcType=BIGINT}
+        ORDER BY
+        id DESC
+        LIMIT
+        #{offset}, #{size}
+    </select>
+
+  <select id="viewProductDetials" resultMap="BaseResultMap" parameterType="long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_product
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteProduct" parameterType="long" >
+    delete from tb_material
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="addProduct" parameterType="com.warehouse.entity.Product" >
+    insert into tb_product
+    (id,project_id, product_name, number, yn)
+    values
+     (#{id,jdbcType=BIGINT},#{projectId, jdbcType=BIGINT}, #{productName,jdbcType=VARCHAR}, 0, 0)
+  </insert>
+    
+    <update id="updateProductNum" >
+        UPDATE
+          tb_product
+        SET
+          number = number + #{number, jdbcType=FLOAT}
+        WHERE
+          id = #{id,jdbcType=BIGINT}
+    </update>
+
+</mapper>

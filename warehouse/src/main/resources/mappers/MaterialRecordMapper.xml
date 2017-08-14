@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.warehouse.dao.IMaterialRecordDao" >
+  <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
+  <resultMap type="com.warehouse.entity.MaterialRecord" id="materialRecordResultMap">
+    <!-- 用id属性来映射主键字段 -->
+    <id property="id" column="id"/>
+    <!-- 用result属性来映射非主键字段 -->
+    <result property="materialId" column="material_id"/>
+    <result property="inNum" column="in_num"/>
+    <result property="remark" column="remark"/>
+    <result property="time" column="time" jdbcType="VARCHAR"/>
+    <result property="yn" column="yn"/>
+    <association property="material" javaType="com.warehouse.entity.Material">
+      <id column="id" property="id"></id>
+      <result column="material_name" property="materialName"/>
+    </association>
+  </resultMap>
+
+  <sql id="Base_Column_List" >
+    id, material_id, in_num,remark,time, yn
+  </sql>
+
+    <select id="viewMaterialRecord" resultMap="materialRecordResultMap">
+        SELECT
+            record.*,
+            material.*
+        FROM
+            tb_material_record as record,
+            tb_material as material
+        WHERE
+            record.material_id = material.id
+        AND
+          record.material_id = #{materialId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            record.time
+            BETWEEN
+              #{startTime}
+            AND
+              #{endTime}
+        </if>
+        ORDER BY
+        record.id
+        DESC
+        LIMIT
+        #{offset},
+        #{size}
+
+    </select>
+
+    <select id="getSum" resultType="java.lang.Float">
+        SELECT
+          SUM(in_num)
+        FROM
+          tb_material_record as record
+        WHERE
+        record.material_id = #{materialId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            time
+            BETWEEN
+            #{startTime}
+            AND
+            #{endTime}
+        </if>
+    </select>
+
+    <select id="getCount" resultType="java.lang.Integer">
+        SELECT
+        COUNT(*)
+        FROM tb_material_record
+        WHERE
+        material_id = #{materialId,jdbcType=BIGINT}
+        <if test="startTime != null and startTime != '' and endTime != null and endTime != ''">
+            AND
+            time
+            BETWEEN
+            #{startTime}
+            AND
+            #{endTime}
+        </if>
+    </select>
+
+  <insert id="addMaterialRecord" parameterType="com.warehouse.entity.Material" >
+    insert into tb_material_record
+    (id,material_id, in_num, remark,time, yn)
+    values
+    (#{id,jdbcType=BIGINT},#{materialId, jdbcType=BIGINT}, #{inNum,jdbcType=FLOAT},   #{remark,jdbcType=VARCHAR}, now(), 0)
+  </insert>
+
+  <select id="viewMaterialDetials" resultMap="materialRecordResultMap" parameterType="long" >
+    select 
+    <include refid="Base_Column_List" />
+    from tb_material_record
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <delete id="deleteMaterialRecord" parameterType="long" >
+    delete from tb_material_record
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+</mapper>
